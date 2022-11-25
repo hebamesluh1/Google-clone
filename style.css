@@ -133,3 +133,38 @@ nav img:hover, nav i:hover{
 }
 /* end main style */
 
+
+/* start footer style  */
+footer{
+    background-color:#000 ;
+    height: 25%;
+}
+footer h4{
+    color:#9aa0a6;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 45px;
+    padding-left: 29px;
+    border-bottom: 1px solid #3c4043;
+}
+footer a{
+    color:#9aa0a6 ;
+    display: inline-block;
+    padding:12px 11.3px ;
+    font-size: 14px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+}
+.link-1{
+    padding-left: 18.7px;
+}
+.link-2{
+    padding-right:18.7px ;
+}
+/* end footer style  */
+
