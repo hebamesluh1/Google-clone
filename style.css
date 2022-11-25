@@ -48,3 +48,88 @@ nav img:hover, nav i:hover{
 }
 /* end header style  */
 
+/* start main style  */
+.section-1{
+    flex: 1;
+}
+.section-1 .logo{
+    display: block;
+    margin:0px auto;
+    margin-top:107px;
+    margin-bottom: 20px;
+}
+.s-box{
+    width:580px;
+    margin:0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
+}
+.s-box .s-input{
+    display: block;
+    border: 1px solid #bdc1c62a;
+    color:#fff;
+    font-size: 16px;
+    padding: 13px;
+    padding-left: 45px;
+    border-radius: 25px;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+    
+}
+.s-box .s-input:hover{
+    border:1px solid transparent;
+    background-color: #bdc1c62a;
+}
+.s-box .search-icon{
+    width: 20px;
+    opacity: .4px;
+    color: #9aa0a6;
+    position: absolute;
+    top:15px;
+    left: 14px;
+}
+.s-box .vs-icon{
+    position: absolute;
+    top: 13px;
+    right: 50px;
+    width: 13px;
+}
+.s-box .camera-icon{
+    position: absolute;
+    top: 13px;
+    right:20px;
+}
+.s-box .s-btn{
+    border:1px solid transparent;
+    padding: 9px 15px;
+    color: #e8eaed;
+    font-size: 14px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right:10px ;
+    margin-top: 28px;
+    outline: none;
+    cursor: pointer;
+    background-color: #303134;
+}
+.s-btn:hover{
+    border:1px solid rgba(232, 234, 237, 0.442);
+}
+.lang{
+    margin-top:30px;
+    text-align: center;
+    font-size: 13px;
+    color: #bdc1c6;
+    margin-bottom: 205px;
+}
+.lang a{
+    color:#8ab4f8;
+    margin-left: 5px;
+}
+.lang a:hover{
+    text-decoration: underline;
+}
+/* end main style */
+
