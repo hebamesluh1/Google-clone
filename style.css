@@ -122,7 +122,7 @@ nav img:hover, nav i:hover{
     text-align: center;
     font-size: 13px;
     color: #bdc1c6;
-    margin-bottom: 205px;
+    
 }
 .lang a{
     color:#8ab4f8;
@@ -137,7 +137,9 @@ nav img:hover, nav i:hover{
 /* start footer style  */
 footer{
     background-color:#000 ;
-    height: 25%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 footer h4{
     color:#9aa0a6;
